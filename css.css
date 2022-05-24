@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    background-image: linear-gradient(to bottom, navy,black);
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+input{
+    text-align: center;
+    width: 90px;
+    padding: 20px;
+    outline: none; 
+    border: none;
+    color: white;
+    /* opacity: 0.5; */
+    background-color: transparent;
+    font-weight: bolder;
+    border:2px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+input:hover{
+    opacity: 1.5;
+    color: black;
+    background-color: white;
+}
+#vals{
+    color: white;
+    width: 50%;
+    opacity: 1;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 20px;
+}
+#equal{
+    opacity: 1;
+    background-color: transparent;
+    padding: 15px;
+}
+#equal:hover{
+    background-color: white;
+}
+form,table{
+    width: 50%;
+    transform: translateX(50%);
+    text-align: center;
+}
+#remove{
+    margin-bottom: 10px;
+}
